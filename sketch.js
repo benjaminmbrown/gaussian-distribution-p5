@@ -11,7 +11,8 @@ function draw() {
 
  var xloc = randomGaussian()
  var sd = 90;
- var mean = 150;
+ var mean = width/2;
+  // Scale the gaussian random number by standard deviation and mean
  xloc = (xloc*sd) + mean;
 
  noStroke();
